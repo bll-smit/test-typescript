@@ -1,6 +1,7 @@
 import React from "react";
+import { ChildProps } from "../../../types/Child.type";
 
-const Child = props => {
+const Child = (props: ChildProps) => {
   return (
     <div className="Child">
       This is Child
